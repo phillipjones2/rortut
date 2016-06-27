@@ -1,0 +1,23 @@
+development:
+  adapter: postgresql
+  encoding: unicode
+  database: rortutorial
+  pool: 5
+  username: phillipjones
+  password:
+
+test:
+  adapter: postgresql
+  encoding: unicode
+  database: rortutorial
+  pool: 5
+  username: phillipjones
+  password:
+
+production:
+    adapter: postgresql
+    encoding: unicode
+    database: rortutorial
+    pool: 5
+    username: phillipjones
+    password: 
